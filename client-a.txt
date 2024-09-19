@@ -2,3 +2,28 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+Start
+	-set variable random_number to random number 1-10
+		-generate random number seeded by time and date %10 then add 1
+	-set variable player_guess to 0
+	-set variable turn to 1
+	-Print "welcome to the guessing game!"
+	-Create while loop (turn <= 3)
+		-Print "Guess a number 1 to 10:"
+		-wait for player input
+		-set Player_guess to player input
+		-create if/else conditional
+			-If player_guess == random_number
+				-Break while loop
+			-Else incriment turn by 1
+				-Print "Please try again."
+	-Create if/else conditional
+		-If player_guess == random_number
+			-Print "Congratualations you selected the correct number"
+		-Else
+			-Print "Sorry you could not guess the correct number."
+			-Print "The correct number was:"
+			-Print random_number
+			-Print "Please play again."
+End
+
