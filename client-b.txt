@@ -7,7 +7,7 @@ Start
 	Create random goalPosition (randx%10, randy%10) - seeded by time and date
 	Print "what is your current position?"
 	Input customerPosition (a,b)
-	while (a!=x && b!=y)
+	while (a!=x || b!=y)
 		If a!=x
 			If a<x
 				increment a by 1
