@@ -23,6 +23,8 @@ Start
 				decrement b by 1
 				Print "move south"
 	Print "Congratualtions you have reached your goal!"
+End
+
 			
 	 ________________________________________________________________________
 	|	|	|	|	|	|	|	|	|	|
