@@ -1,4 +1,16 @@
 # Client Task C #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+Start
+    let i = 0   #number of packages
+    let p = 0   #number of product
+    while (i < 25)
+        promt user to scan packages 
+        increment i by 1
+        p = 2*i
+        print "case count: p"
+    print "This case if full!"
+End
 
+
+    
